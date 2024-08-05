@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Getter and Setter Tests Suite">
+    <test name="GetterSetterTests">
+        <classes>
+            <class name="dz11.ManTest">
+                <methods>
+                    <include name="testGettersAndSetters"/>
+                </methods>
+            </class>
+            <class name="dz11.WomanTest">
+                <methods>
+                    <include name="testGettersAndSetters"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Tests Suite">
+    <test name="AllTests">
+        <classes>
+            <class name="dz9.ManTest"/>
+            <class name="dz9.WomanTest"/>
+        </classes>
+    </test>
+</suite>
